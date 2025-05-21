@@ -1,0 +1,57 @@
+body {
+  background: linear-gradient(to right, #ffecd2, #fcb69f);
+  font-family: 'Segoe UI', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  background: white;
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+  text-align: center;
+  animation: fadeIn 2s ease-in-out;
+}
+
+h1 {
+  color: #e91e63;
+  font-size: 2.5em;
+}
+
+.message {
+  font-size: 1.2em;
+  color: #555;
+}
+
+button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 1em;
+  background: #ff4081;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+button:hover {
+  background: #e91e63;
+}
+
+.hidden {
+  display: none;
+  margin-top: 20px;
+  color: #4a148c;
+  font-weight: bold;
+  font-size: 1.1em;
+}
+
+@keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
